@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="robots" content="index, follow" />
+    <title>Tarira Connect – Técnicos de Campo e Serviços Domésticos | Tarira Moçambique</title>
+    <meta name="description" content="Técnicos de campo verificados para canalização, eletricidade, climatização (AC), pintura, alvenaria e manutenção com supervisão e garantia em Maputo." />
+    <link rel="canonical" href="https://tarira.vercel.app/connect" />
+    <meta property="og:site_name" content="Tarira" />
+    <meta property="og:title" content="Tarira Connect – Técnicos de Campo e Serviços Domésticos com Garantia" />
+    <meta property="og:description" content="Chame eletricistas, canalizadores, técnicos de AC e profissionais de manutenção predial supervisionados pela Tarira." />
+    <meta property="og:url" content="https://tarira.vercel.app/connect" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_MZ" />
+    <meta property="og:image" content="https://tarira.vercel.app/og-image.png" />
+    <meta property="og:image:secure_url" content="https://tarira.vercel.app/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Tarira Moçambique - Ecossistema Integrado de Serviços, Recrutamento e Soluções Especializadas" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tarira Connect – Técnicos de Campo e Serviços Domésticos com Garantia" />
+    <meta name="twitter:description" content="Chame eletricistas, canalizadores, técnicos de AC e profissionais de manutenção predial supervisionados pela Tarira." />
+    <meta name="twitter:image" content="https://tarira.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Tarira Moçambique - Ecossistema Integrado de Serviços e Talentos" />
+
+    <!-- Schema.org JSON-LD Structured Data for Rich Search Snippets & SEO Indexing -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Tarira Connect",
+  "description": "Assistência técnica rápida, manutenção domiciliar e serviços de ofício supervisionados em Moçambique.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Tarira",
+    "url": "https://tarira.vercel.app/"
+  },
+  "areaServed": "Maputo, Matola, Moçambique"
+}
+    </script>
+    <!-- Premium Google Fonts: Plus Jakarta Sans (UI Body), Outfit (Display/Headings), Newsreader (Editorial Serif), JetBrains Mono (Financials/Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+    <!-- Critical CSS for Instant Brand Styling & Zero FOUC (Flash of Unstyled Content) -->
+    <style>
+      :root {
+        --tarira-navy: #172554;
+        --tarira-blue: #2563EB;
+        --tarira-light-bg: #F8FAFC;
+        --tarira-border: #E2E8F0;
+      }
+      body {
+        margin: 0;
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        background-color: #FFFFFF;
+        color: #172554;
+        -webkit-font-smoothing: antialiased;
+      }
+      .tarira-pre-nav {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid var(--tarira-border);
+        padding: 0.75rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .tarira-pre-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        text-decoration: none;
+        color: var(--tarira-navy);
+      }
+      .tarira-pre-wordmark {
+        font-family: 'Newsreader', Georgia, serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.25em;
+        font-weight: 700;
+        color: var(--tarira-navy);
+      }
+      .tarira-hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.35rem 0.85rem;
+        border-radius: 9999px;
+        background: #EFF6FF;
+        border: 1px solid #BFDBFE;
+        color: #1D4ED8;
+        font-size: 0.8125rem;
+        font-weight: 600;
+      }
+      .tarira-card-unit {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 1rem;
+        padding: 1.25rem;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s, box-shadow 0.2s;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+      }
+      .tarira-card-unit:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        border-color: #93C5FD;
+      }
+    </style>
+  </head>
+  <body class="bg-background text-text-primary min-h-screen">
+    <!-- Non-JavaScript Semantic & Accessibility Fallback for Crawlers and Bots -->
+    
+    <noscript>
+      <div style="max-width: 56rem; margin: 2rem auto; padding: 1.5rem; font-family: sans-serif;">
+        <h1 style="font-size: 2rem; color: #172554; font-weight: bold;">Tarira Connect – Técnicos de Campo e Serviços Domésticos | Tarira Moçambique</h1>
+        <p style="color: #475569; font-size: 1.1rem; margin-top: 0.5rem;">Técnicos de campo verificados para canalização, eletricidade, climatização (AC), pintura, alvenaria e manutenção com supervisão e garantia em Maputo.</p>
+        <div style="margin-top: 1.5rem;">
+          
+      <header class="mb-8">
+        <span class="text-xs uppercase tracking-widest text-blue-600 font-bold block mb-1">Unidade de Negócio &middot; Tarira Connect</span>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-[#172554] tracking-tight">Tarira Connect – Técnicos de Campo e Assistência Técnica Supervisionada</h1>
+        <p class="text-base text-slate-700 mt-3 leading-relaxed">
+          Assistência técnica rápida, pontual e supervisionada para habitações particulares, escritórios empresariais e condomínios em Maputo e Matola. Cada intervenção tem garantia de qualidade comprovada.
+        </p>
+      </header>
+
+      <div class="grid sm:grid-cols-2 gap-4">
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Canalização & Pichelaria</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Deteção e reparação de fugas visíveis e ocultas, substituição de tubagens, desentupimentos de esgotos, montagem de bombas de água e reparação de termosifões.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Eletricidade Predial e Residencial</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Instalação de quadros elétricos de disjuntores, ligação de geradores de socorro, passagem de fiação, iluminação LED de baixo consumo e diagnóstico de curtos-circuitos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Climatização & Refrigeração (AC)</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Manutenção preventiva higiénica de aparelhos split, desinfeção de filtros e serpentinas, recarga com gás refrigerante ecológico e instalação de novos equipamentos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Pintura & Remodelações de Alvenaria</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Pintura profissional interior e exterior com preparação de paredes, reparação de fissuras e salitre, impermeabilização de terraços e pequenos acabamentos de construção civil.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Limpeza e Higienização Técnica</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Limpezas pós-obra profundas, higienização profissional de estofos, carpetes e colchões com extração a vapor e manutenção periódica para escritórios corporativos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Carpintaria & Serralharia</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Instalação e reparação de fechaduras de segurança, dobradiças, portas de madeira maciça, portões metálicos e montagem especializada de mobiliário modular.</p>
+        </article>
+      </div>
+    
+        </div>
+      </div>
+    </noscript>
+
+    <!-- Instant Pre-rendered Landing Page Shell (Eliminates FOUC while hydrating React) -->
+    
+    <div id="root">
+      <div class="min-h-screen bg-white text-[#172554] flex flex-col font-sans">
+        <!-- Top Branded Header -->
+        <header class="tarira-pre-nav">
+          <div class="max-w-7xl mx-auto w-full flex items-center justify-between">
+            <a href="/" class="tarira-pre-logo" aria-label="Tarira Página Inicial">
+              <svg viewBox="0 0 102 60" class="w-10 h-6 shrink-0" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="41" cy="30" rx="20" ry="14" stroke="#2563EB" stroke-width="6" fill="none" />
+                <ellipse cx="61" cy="30" rx="20" ry="14" stroke="#101E34" stroke-width="6" fill="none" />
+                <path d="M 41 16 A 20 14 0 0 1 61 30" stroke="#2563EB" stroke-width="6" fill="none" stroke-linecap="round" />
+              </svg>
+              <div class="flex flex-col">
+                <span class="tarira-pre-wordmark">TARIRA</span>
+                <span class="text-[10px] text-blue-900 font-semibold tracking-wider -mt-1 hidden sm:block">Supervisionamos para que não precise.</span>
+              </div>
+            </a>
+
+            <!-- Quick Links -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-[#172554]">
+              <a href="/connect" class="hover:text-blue-600 transition-colors">Connect</a>
+              <a href="/recruit" class="hover:text-blue-600 transition-colors">Recruit</a>
+              <a href="/outsourcing" class="hover:text-blue-600 transition-colors">Outsourcing</a>
+              <a href="/consulting" class="hover:text-blue-600 transition-colors">Consulting</a>
+              <a href="/studio" class="hover:text-blue-600 transition-colors">Studio</a>
+              <a href="/services" class="hover:text-blue-600 transition-colors">Serviços</a>
+              <a href="/about" class="hover:text-blue-600 transition-colors">Sobre</a>
+            </nav>
+
+            <!-- Action Button -->
+            <div class="flex items-center gap-3">
+              <a href="/connect" class="px-4 py-2 bg-[#2563EB] hover:bg-blue-700 text-white rounded-xl text-xs sm:text-sm font-bold shadow-sm transition-colors">
+                Pedir Serviço
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <main class="flex-1 max-w-4xl mx-auto w-full p-6 sm:p-8 font-sans">
+          
+      <header class="mb-8">
+        <span class="text-xs uppercase tracking-widest text-blue-600 font-bold block mb-1">Unidade de Negócio &middot; Tarira Connect</span>
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-[#172554] tracking-tight">Tarira Connect – Técnicos de Campo e Assistência Técnica Supervisionada</h1>
+        <p class="text-base text-slate-700 mt-3 leading-relaxed">
+          Assistência técnica rápida, pontual e supervisionada para habitações particulares, escritórios empresariais e condomínios em Maputo e Matola. Cada intervenção tem garantia de qualidade comprovada.
+        </p>
+      </header>
+
+      <div class="grid sm:grid-cols-2 gap-4">
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Canalização & Pichelaria</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Deteção e reparação de fugas visíveis e ocultas, substituição de tubagens, desentupimentos de esgotos, montagem de bombas de água e reparação de termosifões.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Eletricidade Predial e Residencial</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Instalação de quadros elétricos de disjuntores, ligação de geradores de socorro, passagem de fiação, iluminação LED de baixo consumo e diagnóstico de curtos-circuitos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Climatização & Refrigeração (AC)</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Manutenção preventiva higiénica de aparelhos split, desinfeção de filtros e serpentinas, recarga com gás refrigerante ecológico e instalação de novos equipamentos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Pintura & Remodelações de Alvenaria</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Pintura profissional interior e exterior com preparação de paredes, reparação de fissuras e salitre, impermeabilização de terraços e pequenos acabamentos de construção civil.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Limpeza e Higienização Técnica</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Limpezas pós-obra profundas, higienização profissional de estofos, carpetes e colchões com extração a vapor e manutenção periódica para escritórios corporativos.</p>
+        </article>
+
+        <article class="p-5 border border-slate-200 rounded-2xl bg-slate-50/70 shadow-sm">
+          <h2 class="text-lg font-bold text-[#172554]">Carpintaria & Serralharia</h2>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Instalação e reparação de fechaduras de segurança, dobradiças, portas de madeira maciça, portões metálicos e montagem especializada de mobiliário modular.</p>
+        </article>
+      </div>
+    
+
+          <nav class="mt-12 pt-6 border-t border-slate-200 flex flex-wrap gap-4 text-sm text-blue-700">
+            <a href="/" class="hover:underline font-semibold">&larr; Início / Ecossistema Tarira</a>
+            <a href="/services" class="hover:underline font-semibold">Todos os Serviços</a>
+            <a href="/profissionais" class="hover:underline font-semibold">Profissionais Verificados</a>
+            <a href="/vagas" class="hover:underline font-semibold">Vagas &amp; Oportunidades</a>
+            <a href="/about" class="hover:underline font-semibold">Sobre a Tarira</a>
+            <a href="/faqs" class="hover:underline font-semibold">Central de Ajuda &amp; FAQs</a>
+            <a href="/terms" class="hover:underline font-semibold">Termos e Condições</a>
+          </nav>
+        </main>
+      </div>
+    </div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>
